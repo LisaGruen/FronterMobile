@@ -1,0 +1,249 @@
+body {
+    background-color: #4c374b;
+}
+
+.message-page {
+    background-color: white;
+}
+
+header {
+    display: block;
+    left: 0;
+    top: 0;
+    height: 150px;
+    background-color: #4c374b
+}
+
+h1 {
+    font-family: "HelveticaNeue-CondensedBold", sans-serif;
+    font-size: 3em;
+    /* px, em, rem, % */
+    line-height: 0em;
+    font-style: initial;
+    text-align: center;
+}
+
+.main-page-title {
+    font-family: "HelveticaNeue-CondensedBold", sans-serif;
+    font-size: 1em;
+    /* px, em, rem, % */
+    line-height: 0em;
+    text-align: center;
+    font-weight: Condensed;
+    color: white;
+}
+
+h3 {
+    font-family: "HelveticaNeue-CondensedBold", sans-serif;
+    font-size: 1em;
+    /* px, em, rem, % */
+    line-height: 0em;
+    text-align: center
+}
+
+a {
+    font-family: "HelveticaNeue-CondensedBold", sans-serif;
+    font-size: 1.2em;
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 15px;
+}
+
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.backgroundlogin {
+    background-color: #6eceb2;
+}
+
+.logologinkea {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 250px;
+    margin-top: 5em;
+}
+
+.logologin {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80px;
+    margin-top: 50px;
+    margin-bottom: 80px;
+
+}
+
+
+/* Full-width inputs */
+input[type=text],
+input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin-top: 40px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button {
+    font-family: "HelveticaNeue-CondensedBold", sans-serif;
+    font-size: 1em;
+    background-color: transparent;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    border: 2px solid #ffffff;
+    padding: 20px;
+}
+
+/* Add a hover effect for buttons */
+button:hover {
+    opacity: 0.8;
+}
+
+/* Add padding to containers */
+.container {
+    padding: 20px;
+}
+
+/* The "Forgot password" text */
+.forgot-pass {
+    font-family: "HelveticaNeue-CondensedBold", sans-serif;
+    font-size: 1em;
+    /* px, em, rem, % */
+    line-height: 0em;
+    text-align: left;
+    font-weight: Condensed;
+    color: white;
+}
+
+/*BurgerMenue*/
+.menu {
+    height: 30px;
+    width: 30px;
+    top: 40px;
+    left: 10px;
+}
+
+.menublock {
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #8e7fae;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    display: none;
+}
+
+.menublock a {
+    padding: 8px 8px 30px 15px;
+    text-decoration: none;
+    font-size: 1.5em;
+    color: #4c374b;
+    display: block;
+    text-align: left;
+    transition: 0.3s;
+}
+
+.menublock a:hover {
+    color: #f1f1f1;
+}
+
+.menublock .closebtn {
+    position: absolute;
+    top: 0.5em;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+.menublock-visible {
+    display: block;
+}
+
+.mainpage {
+    padding: 8px 8px 30px 15px;
+    font-family: "HelveticaNeue-CondensedBold", sans-serif;
+    font-size: 1em;
+    /* px, em, rem, % */
+    line-height: 1em;
+    text-align: left;
+    font-weight: Condensed;
+    color: white;
+
+}
+
+/*Lines*/
+hr {
+    display: block;
+    margin-before: 0.5em;
+    margin-after: 0.5em;
+    margin-start: auto;
+    margin-end: auto;
+    overflow: hidden;
+    border-style: inset;
+    border-width: 1px;
+    border-color: aqua;
+}
+
+@media screen and (max-height: 450px) {
+    .menublock {
+        padding-top: 15px;
+    }
+
+    .menublock a {
+        font-size: 18px;
+    }
+}
+
+.main {
+    display: block;
+    height: 100%;
+    width: 100%;
+    top: 150px;
+    left: 10px;
+    background-color: white;
+}
+
+/*messages*/
+.message-list {
+    position: relative;
+    font-family: "HelveticaNeue-CondensedBold", sans-serif;
+}
+
+.message {
+    font-size: 1em;
+    /* px, em, rem, % */
+    line-height: 1em;
+    text-align: center;
+    font-weight: Condensed;
+    color: #4c374b;
+
+}
+
+.message .headline {}
+
+.message .subject {
+    font-family: "HelveticaNeue-CondensedBold", sans-serif;
+    font-size: 1em;
+    /* px, em, rem, % */
+    line-height: 1em;
+    text-align: center;
+    font-weight: Condensed;
+    color: #4c374b;
+}
+
+.message .text {}
