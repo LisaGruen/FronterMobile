@@ -23,14 +23,29 @@ h1 {
     text-align: center;
 }
 
-.main-page-title {
+.login-title {
     font-family: "HelveticaNeue-CondensedBold", sans-serif;
-    font-size: 1em;
+    font-size: 0.7em;
     /* px, em, rem, % */
     line-height: 0em;
     text-align: center;
     font-weight: Condensed;
     color: white;
+
+
+
+}
+
+.main-page-title {
+    font-family: "HelveticaNeue-CondensedBold", sans-serif;
+    font-size: 0.7em;
+    /* px, em, rem, % */
+    line-height: 0em;
+    text-align: right;
+    font-weight: Condensed;
+    color: white;
+    margin-top: -20px;
+    float: right;
 }
 
 h3 {
@@ -38,7 +53,7 @@ h3 {
     font-size: 1em;
     /* px, em, rem, % */
     line-height: 0em;
-    text-align: center
+    text-align: center;
 }
 
 a {
@@ -49,14 +64,20 @@ a {
     margin-left: 15px;
 }
 
+.menu-link {
+    display: inline-block;
+    float: left;
+    margin-top: 15px;
+    left: 10px;
+}
+
 .logo {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
     width: 40px;
-    margin-top: 10px;
-    margin-bottom: 20px;
+    margin-left: 50%;
+    margin-top: 20px;
 }
+
 
 .backgroundlogin {
     background-color: #6eceb2;
@@ -128,10 +149,9 @@ button:hover {
 
 /*BurgerMenue*/
 .menu {
+    display: inline-block;
     height: 30px;
     width: 30px;
-    top: 40px;
-    left: 10px;
 }
 
 .menublock {
@@ -151,7 +171,7 @@ button:hover {
 .menublock a {
     padding: 8px 8px 30px 15px;
     text-decoration: none;
-    font-size: 1.5em;
+    font-size: 1.2em;
     color: #4c374b;
     display: block;
     text-align: left;
@@ -227,23 +247,57 @@ hr {
 .message {
     font-size: 1em;
     /* px, em, rem, % */
-    line-height: 1em;
-    text-align: center;
+    line-height: 1.5em;
+    text-align: left;
     font-weight: Condensed;
     color: #4c374b;
-
+    padding-left: 10%;
+    padding-right: 10%;
+    s
 }
 
-.message .headline {}
+.headline {
+    text-align: center;
+}
+
+.message .subheadline {
+    font-weight: bold;
+    line-height: 2em;
+    color: #8e7fae;
+}
 
 .message .subject {
     font-family: "HelveticaNeue-CondensedBold", sans-serif;
     font-size: 1em;
     /* px, em, rem, % */
     line-height: 1em;
-    text-align: center;
-    font-weight: Condensed;
+    text-align: left;
+    font-weight: bold;
     color: #4c374b;
 }
 
 .message .text {}
+
+/*grid*/
+@media only screen and (min-width: 800px) {
+
+
+    .main-grid {
+        display: grid;
+        grid-template-columns: auto auto;
+        margin-left: 250px;
+    }
+
+    .main-grid > div {
+        padding: 0px 10px;
+    }
+
+    .menublock {
+        display: inline-block;
+    }
+
+    .menublock .closebtn {
+        display: none;
+    }
+
+}
