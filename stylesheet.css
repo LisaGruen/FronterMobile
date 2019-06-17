@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
 body {
     background-color: #4c374b;
 }
@@ -19,7 +21,7 @@ header.login {
 }
 
 h1 {
-    font-family: "HelveticaNeue-CondensedBold", sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 3em;
     /* px, em, rem, % */
     line-height: 0em;
@@ -28,7 +30,7 @@ h1 {
 }
 
 .login-title {
-    font-family: "HelveticaNeue-CondensedBold", sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 0.7em;
     /* px, em, rem, % */
     line-height: 0em;
@@ -41,7 +43,7 @@ h1 {
 }
 
 .main-page-title {
-    font-family: "HelveticaNeue-CondensedBold", sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 0.7em;
     /* px, em, rem, % */
     line-height: 0em;
@@ -53,7 +55,7 @@ h1 {
 }
 
 h3 {
-    font-family: "HelveticaNeue-CondensedBold", sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 1em;
     /* px, em, rem, % */
     line-height: 0em;
@@ -61,7 +63,7 @@ h3 {
 }
 
 a {
-    font-family: "HelveticaNeue-CondensedBold", sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 1.2em;
     text-decoration: none;
     font-weight: bold;
@@ -119,12 +121,13 @@ input[type=password] {
 
 /* Set a style for all buttons */
 .button {
-    font-family: "HelveticaNeue-CondensedBold", sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 1em;
     background-color: transparent;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    text-align: center;
+    margin-left: 35%;
+    margin-right: 35%;
     color: white;
     border: 2px solid #ffffff;
     padding: 20px;
@@ -142,13 +145,13 @@ button:hover {
 
 /* The "Forgot password" text */
 .forgot-pass {
-    font-family: "HelveticaNeue-CondensedBold", sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 1em;
     /* px, em, rem, % */
-    line-height: 0em;
+    font-size: 1em;
     text-align: left;
-    font-weight: Condensed;
     color: white;
+    text-decoration: none;
 }
 
 /*BurgerMenue*/
@@ -245,7 +248,7 @@ hr {
 /*messages*/
 .message-list {
     position: relative;
-    font-family: "HelveticaNeue-CondensedBold", sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 .message {
@@ -271,7 +274,7 @@ hr {
 }
 
 .message .subject {
-    font-family: "HelveticaNeue-CondensedBold", sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 1em;
     /* px, em, rem, % */
     line-height: 1em;
