@@ -11,7 +11,11 @@ header {
     left: 0;
     top: 0;
     height: 150px;
-    background-color: #4c374b
+    background-color: #4c374b;
+}
+
+header.login {
+    background-color: #6eceb2;
 }
 
 h1 {
@@ -114,7 +118,7 @@ input[type=password] {
 }
 
 /* Set a style for all buttons */
-button {
+.button {
     font-family: "HelveticaNeue-CondensedBold", sans-serif;
     font-size: 1em;
     background-color: transparent;

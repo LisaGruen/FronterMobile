@@ -23,7 +23,7 @@
     <main class="main">
         <div class="menublock">
             <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-            <a href="index.html">Calendar</a>
+            <a href="#">Calendar</a>
             <a href="#">Messages</a>
             <a href="#">Lecture Library</a>
             <a href="#">Teaching Material</a>
@@ -45,13 +45,13 @@
 
 
                 <div class="subheadline">
-                    <a href="singlemessages.html">KENNY MAREK MØLLER l 24. MAY 2019</a>
+                    KENNY MAREK MØLLER l 24. MAY 2019
                 </div>
                 <div class="subject">
-                    <a href="singlemessages.html">Demo your concept prototypes!</a>
+                    Demo your concept prototypes!
                 </div>
                 <div class="text">
-                    <a href="singlemessages.html">We'd like to offer you the opportunity to demonstrate your solutions for us to share with the head of programme, Frederikke Bender, and other relevant stakeholders at KEA. It will be recorded and shared afterwards.</a>
+                    We'd like to offer you the opportunity to demonstrate your solutions for us to share with the head of programme, Frederikke Bender, and other relevant stakeholders at KEA. It will be recorded and shared afterwards.
                 </div>
                 <div class="subheadline">
                     KEA Communication l 14. MAY 2019
