@@ -35,7 +35,6 @@ h1 {
     /* px, em, rem, % */
     line-height: 0em;
     text-align: center;
-    font-weight: Condensed;
     color: white;
 
 
@@ -48,7 +47,6 @@ h1 {
     /* px, em, rem, % */
     line-height: 0em;
     text-align: right;
-    font-weight: Condensed;
     color: white;
     margin-top: -20px;
     float: right;
@@ -208,7 +206,6 @@ button:hover {
     /* px, em, rem, % */
     line-height: 1em;
     text-align: left;
-    font-weight: Condensed;
     color: white;
 
 }
@@ -216,11 +213,6 @@ button:hover {
 /*Lines*/
 hr {
     display: block;
-    margin-before: 0.5em;
-    margin-after: 0.5em;
-    margin-start: auto;
-    margin-end: auto;
-    overflow: hidden;
     border-style: inset;
     border-width: 1px;
     border-color: aqua;
@@ -256,11 +248,10 @@ hr {
     /* px, em, rem, % */
     line-height: 1.5em;
     text-align: left;
-    font-weight: Condensed;
     color: #4c374b;
     padding-left: 10%;
     padding-right: 10%;
-    s
+
 }
 
 .headline {
